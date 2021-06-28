@@ -8,6 +8,7 @@ const app = new Vue({
     title: "<h1>Zerg Swarm</h1>",
     imageSrc: 'https://bnetcmsus-a.akamaihd.net/cms/blog_header/u0/U0EAW79NTVXP1498164245687.jpg',
     imageTitle: 'Zerg Swarm',
+    number: 14,
   },
   computed: {
     reverseString: function () {
@@ -18,5 +19,11 @@ const app = new Vue({
     calculateSum: (val1, val2) => {
       return val1 + val2;
     },
+    increment: function () {
+      this.number++;
+    },
+    decrement: function () {
+      this.number--;
+    }
   }
 });

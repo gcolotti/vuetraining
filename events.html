@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="js/vue.js"></script>
+    <title>Vue Training</title>
+  </head>
+  <body>
+    <div id="app">
+      <button @click="increment">Increment</button>
+      <button v-on:click="decrement">Decrement</button>
+      <p v-bind:style="{fontSize:number+'px'}">Zerg Swarm: N# {{ number }}</p>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
