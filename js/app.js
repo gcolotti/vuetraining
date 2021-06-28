@@ -10,6 +10,7 @@ const app = new Vue({
     imageTitle: 'Zerg Swarm',
     number: 14,
     v_model: 'Zerg Swarm',
+    hasError: true,
   },
   computed: {
     reverseString: function () {
