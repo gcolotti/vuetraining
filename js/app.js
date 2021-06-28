@@ -4,6 +4,7 @@ const app = new Vue({
     message: 'Hello World!',
     sum: 3 + 6,
     value: 2,
+    people: ["Guille", "Juan", "Nati", "Pedro"]
   },
   computed: {
     reverseString: function () {
