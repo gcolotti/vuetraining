@@ -3,6 +3,7 @@ const app = new Vue({
   data: {
     message: 'Hello World!',
     sum: 3 + 6,
+    value: 2,
   },
   computed: {
     reverseString: function () {
