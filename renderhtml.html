@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="js/vue.js"></script>
+    <title>Vue Training</title>
+  </head>
+  <body>
+    <div id="app">
+      <p v-html="title"></p>
+      <img
+        v-bind:src="imageSrc"
+        v-bind:alt="imageTitle"
+        v-bind:title="imageTitle"
+      />
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
