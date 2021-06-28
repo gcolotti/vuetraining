@@ -26,5 +26,10 @@ const app = new Vue({
     decrement: function () {
       this.number--;
     }
+  },
+  watch: {
+    number: (value) => {
+      console.log('New value for number:', value);
+    },
   }
 });
