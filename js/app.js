@@ -9,6 +9,7 @@ const app = new Vue({
     imageSrc: 'https://bnetcmsus-a.akamaihd.net/cms/blog_header/u0/U0EAW79NTVXP1498164245687.jpg',
     imageTitle: 'Zerg Swarm',
     number: 14,
+    v_model: 'Zerg Swarm',
   },
   computed: {
     reverseString: function () {

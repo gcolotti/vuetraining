@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="js/vue.js"></script>
+    <title>Vue Training</title>
+  </head>
+  <body>
+    <div id="app">
+      <input v-model="v_model" type="text" />
+      <p>{{ v_model }}</p>
+      <br /><br />
+      <span>Multiline message:</span>
+      <p style="white-space: pre-line">{{ message }}</p>
+      <br />
+      <textarea v-model="message" placeholder="add multiple lines"></textarea>
+    </div>
+    <script src="js/app.js"></script>
+  </body>
+</html>
