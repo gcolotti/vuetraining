@@ -6,7 +6,12 @@
     <title>Vue Training</title>
   </head>
   <body>
-    <div id="app">{{ message }} {{ sum }}</div>
+    <div id="app">
+      <p>Data message: {{ message }}</p>
+      <p>Data sum: {{ sum }}</p>
+      <p>Computed: {{ reverseString }}</p>
+      <p>Methods: {{ calculateSum(sum, 5) }}</p>
+    </div>
     <script src="js/app.js"></script>
   </body>
 </html>
