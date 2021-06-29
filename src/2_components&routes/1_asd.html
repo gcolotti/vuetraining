@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="../../js/vue.js"></script>
+    <script src="../../js/vue-router.js"></script>
+    <title>Vue Training</title>
+  </head>
+  <body>
+    <div id="app">
+      <div>
+        <p>Data message: {{ message }}</p>
+        <p>Data sum: {{ sum }}</p>
+        <p>Computed: {{ reverseString }}</p>
+        <p>Methods: {{ calculateSum(sum, 5) }}</p>
+      </div>
+
+      <router-link to="/zerg">Zerg Page</router-link>
+      <router-link to="/terran">Terran Page</router-link>
+      <router-link to="/protoss">Protoss Page</router-link>
+
+      <router-view></router-view>
+    </div>
+    <script src="../../js/app.js"></script>
+  </body>
+</html>

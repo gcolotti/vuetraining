@@ -1,5 +1,20 @@
+const ZergPage = { template: '<div>Zerg</div>' };
+const TerranPage = { template: '<div>Terran</div>' };
+const ProtossPage = { template: '<div>Protoss</div>' };
+
+const routes = [
+  { path: '/zerg', component: ZergPage },
+  { path: '/terran', component: TerranPage },
+  { path: '/protoss', component: ProtossPage }
+];
+
+const router = new VueRouter({
+  routes
+});
+
 const app = new Vue({
   el: '#app',
+  router,
   data: {
     message: 'Hello World!',
     sum: 3 + 6,
