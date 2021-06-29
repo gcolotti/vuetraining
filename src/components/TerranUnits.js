@@ -2,6 +2,7 @@ const TerranUnits = {
   name: 'TerranUnits',
   template:
     `<div>
+      <unit-alert></unit-alert>
       <p>
         Terran Units
       </p>

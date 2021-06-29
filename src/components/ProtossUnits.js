@@ -2,6 +2,7 @@ const ProtossUnits = {
   name: 'ProtossUnits',
   template:
     `<div>
+      <unit-alert></unit-alert>
       <p>
         Protoss Units
       </p>
