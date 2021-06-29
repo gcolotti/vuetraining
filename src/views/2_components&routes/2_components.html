@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="../../../js/vue.js"></script>
+    <script src="../../../js/vue-router.js"></script>
+    <title>Vue Training</title>
+  </head>
+  <body>
+    <div id="app">
+      <router-link to="/zerg_units">Zerg Page</router-link>
+      <router-link to="/terran_units">Terran Page</router-link>
+      <router-link to="/protoss_units">Protoss Page</router-link>
+
+      <router-view></router-view>
+    </div>
+    <script src="../../components/ZergList.js"></script>
+    <script src="../../components/TerranList.js"></script>
+    <script src="../../components/ProtossList.js"></script>
+    <script src="../../../js/app_components.js"></script>
+  </body>
+</html>
